@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException, Query, Depends
 from database import Base, SessionLocal, engine
 from models import User
-from sqlalchemy import Column, String, Integer, Boolean, VARCHAR
 from pydantic import BaseModel, PydanticUserError
 from typing import Optional, List
 from sqlalchemy.orm import Session
