@@ -6,7 +6,6 @@ from typing import Optional, List
 from sqlalchemy.orm import Session
 from pydantic.json_schema import JsonSchemaValue
 from pydantic_core import core_schema
-from fastapi.responses import JSONResponse
 
 Base.metadata.create_all(bind=engine)
 
